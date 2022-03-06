@@ -20,3 +20,10 @@ for person in data['people]:
 print(person['name])
 ```
 
+
+Loop through the nested dictionary
+```angular2html
+for item in data ['list']['resources']:
+name = item['resource']['field']['name']
+price = item['resource']['field']['price']
+```
